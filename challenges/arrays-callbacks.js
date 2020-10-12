@@ -3,16 +3,16 @@
 // Given this zoo data from around the United States, follow the instructions below.  Use the specific array methods in the requests below to solve the problems.
 
 const zooAnimals = [
-  { animal_name: "Jackal, asiatic", population: 5, scientific_name: "Canis aureus", state: "Kentucky" },
-  { animal_name: "Screamer, southern", population: 1, scientific_name: "Chauna torquata", state: "Alabama" },
-  { animal_name: "White spoonbill", population: 8, scientific_name: "Platalea leucordia", state: "Georgia" },
-  { animal_name: "White-cheeked pintail", population: 1, scientific_name: "Anas bahamensis", state: "Oregon" },
-  { animal_name: "Black-backed jackal", population: 2, scientific_name: "Canis mesomelas", state: "Washington" },
-  { animal_name: "Brolga crane", population: 9, scientific_name: "Grus rubicundus", state: "New Mexico" },
-  { animal_name: "Common melba finch", population: 5, scientific_name: "Pytilia melba", state: "Pennsylvania" },
-  { animal_name: "Pampa gray fox", population: 10, scientific_name: "Pseudalopex gymnocercus", state: "Connecticut" },
-  { animal_name: "Hawk-eagle, crowned", population: 10, scientific_name: "Spizaetus coronatus", state: "Florida" },
-  { animal_name: "Australian pelican", population: 5, scientific_name: "Pelecanus conspicillatus", state: "West Virginia" },
+    { animal_name: "Jackal, asiatic", population: 5, scientific_name: "Canis aureus", state: "Kentucky" },
+    { animal_name: "Screamer, southern", population: 1, scientific_name: "Chauna torquata", state: "Alabama" },
+    { animal_name: "White spoonbill", population: 8, scientific_name: "Platalea leucordia", state: "Georgia" },
+    { animal_name: "White-cheeked pintail", population: 1, scientific_name: "Anas bahamensis", state: "Oregon" },
+    { animal_name: "Black-backed jackal", population: 2, scientific_name: "Canis mesomelas", state: "Washington" },
+    { animal_name: "Brolga crane", population: 9, scientific_name: "Grus rubicundus", state: "New Mexico" },
+    { animal_name: "Common melba finch", population: 5, scientific_name: "Pytilia melba", state: "Pennsylvania" },
+    { animal_name: "Pampa gray fox", population: 10, scientific_name: "Pseudalopex gymnocercus", state: "Connecticut" },
+    { animal_name: "Hawk-eagle, crowned", population: 10, scientific_name: "Spizaetus coronatus", state: "Florida" },
+    { animal_name: "Australian pelican", population: 5, scientific_name: "Pelecanus conspicillatus", state: "West Virginia" },
 ];
 
 /* Request 1: .forEach()
@@ -20,6 +20,7 @@ const zooAnimals = [
 The zoos want to display both the scientific name and the animal name in front of the habitats. Populate the displayNames array with only the animal_name and scientific_name of each animal. displayNames will be an array of strings, and each string should follow this pattern: "Name: Jackal, asiatic, Scientific: Canis aureus."
 
 */
+// comment to git push
 const displayNames = [];
 console.log(displayNames);
 
@@ -52,18 +53,18 @@ console.log(populationTotal);
 // ==== Callbacks ====  
 
 /* Step 1: Create a higher-order function
-  * Create a higher-order function named consume with 3 parameters: a, b and cb
-  * The first two parameters can take any argument (we can pass any value as argument)
-  * The last parameter accepts a callback
-  * The consume function should return the invocation of cb, passing a and b into cb as arguments
-*/
+ * Create a higher-order function named consume with 3 parameters: a, b and cb
+ * The first two parameters can take any argument (we can pass any value as argument)
+ * The last parameter accepts a callback
+ * The consume function should return the invocation of cb, passing a and b into cb as arguments
+ */
 
 
 /* Step 2: Create several functions to callback with consume();
-  * Create a function named add that returns the sum of two numbers
-  * Create a function named multiply that returns the product of two numbers 
-  * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
-*/
+ * Create a function named add that returns the sum of two numbers
+ * Create a function named multiply that returns the product of two numbers 
+ * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
+ */
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
@@ -79,4 +80,3 @@ console.log(populationTotal);
 Stretch: If you haven't already, convert your array method callbacks into arrow functions.
 
 */
-
